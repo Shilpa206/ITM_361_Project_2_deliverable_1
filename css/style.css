@@ -49,8 +49,18 @@ iframe{
     box-sizing: border-box;
 }
 h1, h2{
-  text-underline-offset: 0.09em;
-  text-decoration: underline;
-  text-align: center;
-  position: relative;
+    text-underline-offset: 0.09em;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+
+p,ol,li{
+	text-align: center;
+	position: relative;
+}
+section{
+  box-sizing: border-box;
+  width: 25%;
+  margin: 3em auto;
 }
