@@ -4,7 +4,6 @@ body{
   color: white;
   font-size: 1em;
   line-height: 1.5;
-  text-align: static;
 }
 nav{
   background-color: #070a0a;
@@ -28,14 +27,12 @@ nav ul li a{
   display: block;
   padding: 1.00em 0.9em;
   color: white;
-  font-weight: monospace;
   text-decoration: none;
 }
 
 img{
     height: 200px;
     width: 300px;
-	position: center;
 	margin: 2.5em auto;
 	display: block;
     box-sizing: border-box;
@@ -43,7 +40,6 @@ img{
 iframe{
 	height: 200px;
     width: 300px;
-	position: center;
 	margin: 2.5em auto;
 	display: block;
     box-sizing: border-box;
