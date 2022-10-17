@@ -26,9 +26,9 @@ nav ul li{
 }
 nav ul li a{
   display: block;
-  padding: 0.25em 0.5em;
+  padding: 1.00em 0.9em;
   color: white;
-  font-weight: bold;
+  font-weight: monospace;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ h1, h2{
     position: relative;
 }
 
-p,ol,li{
+p,ul,ol,li{
 	text-align: center;
 	position: relative;
 }
@@ -63,4 +63,11 @@ section{
   box-sizing: border-box;
   width: 25%;
   margin: 3em auto;
+}
+p a #MyLinkdin{
+	background-color: #070a0a;
+}
+footer p a{
+  clear: none;
+  background-color: #f2f5f5;
 }
