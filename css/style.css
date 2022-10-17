@@ -1,8 +1,45 @@
 body{
-  background-color: white;
-  background-image: url("../images/background.jpg");
+  background-color: #633428;
   font-family: Helvetica, sans-serif;
-  color: white;
+  color: black;
   font-size: 1em;
   line-height: 1.5;
+  text-align: static;
+}
+nav{
+  background-color: #35589e;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0 0 0.5em 0.5em;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  display: block;
+  padding: 0.35em 0.5em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #0e120c;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+iframe{
+	height: 200px;
+    width: 300px;
 }
