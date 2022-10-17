@@ -61,11 +61,8 @@ p,ul,ol,li{
 }
 section{
   box-sizing: border-box;
-  width: 25%;
+  width: 20%;
   margin: 3em auto;
-}
-p a #MyLinkdin{
-	background-color: #070a0a;
 }
 footer p a{
   clear: none;
